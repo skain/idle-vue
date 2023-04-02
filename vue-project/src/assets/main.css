@@ -1,11 +1,9 @@
 :root {
 	font-family: 'Ubuntu', sans-serif;
+	--list-width: max(360px, 40vw);
 }
 
-/* body {
-	font-family: var(--font-family);
+#app {
+	width: var(--list-width);
+	margin: auto;
 }
-
-button {
-	font-family: var(--font-family);
-} */
