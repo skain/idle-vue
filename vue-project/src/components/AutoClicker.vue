@@ -1,17 +1,24 @@
 <script>
 export default {
-	props:{
+	props: {
 		game: Object
 	}
 }
 </script>
 <template>
-	<div v-if="game.curPoints > 10" class="row">
-		<div class="col">
+	<div v-if="game.curPoints > 10" class="acContainer">
+		<div>
 			div
 		</div>
-		<div class="col">
+		<div>
 			div
 		</div>
-	</div> 
+	</div>
 </template>
+
+<style scoped>
+.acContainer {
+	display: flex;
+	justify-content: space-between;
+}
+</style>
