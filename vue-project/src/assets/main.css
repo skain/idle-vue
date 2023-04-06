@@ -1,9 +1,0 @@
-:root {
-	font-family: 'Ubuntu', sans-serif;
-	--list-width: max(360px, 40vw);
-}
-
-#app {
-	width: var(--list-width);
-	margin: auto;
-}

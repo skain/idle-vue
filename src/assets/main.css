@@ -1,0 +1,25 @@
+:root {
+	--font-family: 'Ubuntu', sans-serif;
+	--list-width: max(360px, 40vw);
+}
+
+#app {
+	width: var(--list-width);
+	margin: auto;
+	font-family: var(--font-family);
+}
+
+#app button {
+	border: none;
+	padding: 0.5em 0.7em;
+	border-radius: .7em;
+	margin: 4px;
+	font-family: var(--font-family);
+}
+
+#clickBtn {
+	background-color: green;
+	color: white;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
